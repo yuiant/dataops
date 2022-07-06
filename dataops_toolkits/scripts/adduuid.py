@@ -16,6 +16,7 @@ def main():
             new_datas += [data]
 
         dump_json(new_datas, data_path)
+        print("added!")
 
     else:
         raise Exception("Invalid Data")
