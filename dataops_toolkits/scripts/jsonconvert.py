@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from dataops_toolkits.io import read_json, dump_json
-from dataops_toolkits.utils import convert_data
-
 import argparse
+
+from dataops_toolkits.io import dump_json, read_json
+from dataops_toolkits.utils import convert_data
 
 
 def convert(source: str, target: str, set_uuid=False):

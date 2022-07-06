@@ -18,6 +18,7 @@ label-studio = "1.5.0"
 
 [tool.poetry.scripts]
 jsonconvert="dataops_toolkits.scripts.jsonconvert:main"
+adduuid="dataops_toolkits.scripts.adduuid:main"
 
 
 [build-system]
