@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dataops-toolkits"
-version = "0.1.1"
+version = "0.1.2"
 description = "Gadget Collection of DataOps in MLOps"
 authors = ["yuiant <gyuiant@gmail.com>"]
 license = "MIT"
